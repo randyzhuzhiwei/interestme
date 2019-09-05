@@ -19,7 +19,7 @@ dependencies:
   flutter:
     sdk: flutter
   firebase_core: ^0.4.0+9
-  firebase_auth: 0.6.2+1
+  firebase_auth: 0.14.0+5
   firebase_storage: 3.0.6
   firebase_messaging: ^5.1.4
   cloud_firestore: 0.12.9+3
@@ -34,7 +34,7 @@ dependencies:
   screen: ^0.0.4
   flutter_launcher_icons: "^0.6.1"
   html_unescape: ^1.0.1+2
-  flutter_local_notifications: ^0.4.2
+  flutter_local_notifications: ^0.8.2
   flutter_youtube_extractor: ^0.0.8
   connectivity: ^0.3.2
   flutter_youtube: "^1.1.4"
