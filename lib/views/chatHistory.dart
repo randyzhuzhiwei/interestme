@@ -197,7 +197,7 @@ class _ChatHistoryScreenState extends State<ChatHistoryScreen>
 
   Widget buildItem(int index, DocumentSnapshot document) {
     var formatter = new DateFormat('HH:mm:ss dd-MM-yy');
-    String formattedD = formatter.format(document['timestamp']);
+    String formattedD = formatter.format(document['timestamp'].toDate());
     double dFontSize = 10.0;
     double mFontSize = 10.0;
     if (AppStateContainer.of(context).device == Device.watch) {

@@ -125,7 +125,7 @@ class _StoriesScreenState extends State<StoriesScreen>
         }
         message.add(txtMsg);
         //message.add(dataUser['message']);
-        lastUpdate.add(dataUser['timestamp']);
+        lastUpdate.add(dataUser['timestamp'].toDate());
         likesID = dataUser['likeList'];
         docIDs.add(dataUser.documentID);
         if (likesID != null) {
@@ -194,7 +194,7 @@ class _StoriesScreenState extends State<StoriesScreen>
         }
         message.add(txtMsg);
         //message.add(dataUser['message']);
-        lastUpdate.add(dataUser['timestamp']);
+        lastUpdate.add(dataUser['timestamp'].toDate());
         likesID = dataUser['likeList'];
         docIDs.add(docID);
         if (likesID != null) {
@@ -263,7 +263,7 @@ class _StoriesScreenState extends State<StoriesScreen>
           }
           message.add(txtMsg);
           // message.add(dataUser['message']);
-          lastUpdate.add(dataUser['timestamp']);
+          lastUpdate.add(dataUser['timestamp'].toDate());
           likesID = dataUser['likeList'];
           docIDs.add(docID);
           if (likesID != null) {

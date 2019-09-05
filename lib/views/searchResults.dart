@@ -109,7 +109,7 @@ _scrollController.animateTo(
         print(uc.message.toLowerCase().contains(youtubeURL2));
                          
 
-        uc.lastupdate = doc['timestamp'];
+        uc.lastupdate = doc['timestamp'].toDate();
         List<dynamic> likesID = new List<String>();
         likesID = doc['likeList'];
         if (likesID != null) {

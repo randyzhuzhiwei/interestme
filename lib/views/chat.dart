@@ -450,7 +450,7 @@ class _ChatScreenState extends State<ChatScreen> {
           chatPartnerID.add(doc['membersID'][0]);
         }
 
-        lastUpdate.add(doc['lastupdate']);
+        lastUpdate.add(doc['lastupdate'].toDate());
         message.add(doc['message']);
         senderID.add(doc['senderID']);
         chatGrouprID.add(doc.documentID);
