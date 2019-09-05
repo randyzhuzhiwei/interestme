@@ -608,7 +608,7 @@ class _SayScreenState extends State<SayScreen> with TickerProviderStateMixin {
   }
 
   _stopRecording() async {
-    bool status = await AudioRecorder.stop();
+     await AudioRecorder.stop();
     bool isRecording = await AudioRecorder.isRecording;
 
     Directory appDocDir = await getExternalStorageDirectory();
