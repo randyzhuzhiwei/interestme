@@ -35,13 +35,12 @@ dependencies:
   flutter_launcher_icons: "^0.6.1"
   html_unescape: ^1.0.1+2
   flutter_local_notifications: ^0.8.2
-  flutter_youtube_extractor: ^0.0.8
   connectivity: ^0.3.2
   flutter_youtube: "^1.1.4"
   youtube_extractor: ^1.0.1
   transparent_image: ^0.1.0
   audioplayer: ^0.5.2
-  audio_recorder: ^1.0.1  
+  audio_recorder: ^1.0.1
   carousel_slider: ^1.1.0
 
 dependency_overrides:

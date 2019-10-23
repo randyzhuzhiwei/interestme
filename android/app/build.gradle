@@ -51,7 +51,7 @@ android {
         targetSdkVersion 28
         //versionCode flutterVersionCode.toInteger()
         //Mobile
-        versionCode 9
+        versionCode 10
         //Watch
         //versionCode 3
         versionName flutterVersionName

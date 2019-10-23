@@ -17,7 +17,6 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 import '../data/firestore_helper.dart';
 import 'package:cached_network_image/cached_network_image.dart';
 import '../models/speech_recognition.dart';
-import 'package:flutter_youtube_extractor/flutter_youtube_extractor.dart';
 import 'package:flutter_youtube/flutter_youtube.dart';
 import 'package:youtube_extractor/youtube_extractor.dart';
 
