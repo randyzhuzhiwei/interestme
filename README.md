@@ -1,8 +1,11 @@
 # interest_me_mobile_app
 
-A new Flutter project.
+A social networking platorm designed by the NQASG members. Code base includes Android and Wear OS deployment.
 
 ## Getting Started
 
-For help getting started with Flutter, view our online
-[documentation](https://flutter.io/).
+Install Flutter (https://flutter.dev/)
+
+Open interest_me_mobile_app project
+
+Modify main to select depolyment as Android apk or Wear OS apk
